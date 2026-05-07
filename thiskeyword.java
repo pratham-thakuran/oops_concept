@@ -32,7 +32,7 @@ public class thiskeyword {
         Student random = new Student(Pratham);
         Student random2 = new Student();
         Student Ansh = new Student();
-        Student Raju = new Student(14,"ugfc",78.9f);
+        Student Raju = Ansh;
         random2.greeting();
         random.greeting();
         Pratham.greeting();
@@ -40,6 +40,6 @@ public class thiskeyword {
         System.out.println(Pratham.rno);
         System.out.println(Ansh.rno);
         System.out.println(Ansh.rno);
-        System.out.println(Raju.rno);
+        System.out.println(Raju.name);
     }
 }
