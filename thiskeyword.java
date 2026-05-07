@@ -6,9 +6,7 @@ class Student {
     float marks;
 
     Student() {
-        this.rno = 13;
-        this.name = "Pratham";
-        this.marks = 89.9f;
+        this(13,"null",100.0f);
     }
 
     Student(int rno, String name, float marks) {
@@ -20,13 +18,21 @@ class Student {
     void greeting() {
         System.out.println("hello my name is " + this.name);
     }
+
+    Student(Student other){
+        this.name=other.name;
+        this.rno = other.rno;
+        this.marks = other.marks;
+    }
 }
 
 public class thiskeyword {
     public static void main(String args[]) {
         Student Pratham = new Student(18,"Pratham", 78.9f);
         Student Kunal = new Student(14, "Kunal",48.5f);
-        Student random = new Student();
+        Student random = new Student(Pratham);
+        Student random2 = new Student();
+        random2.greeting();
         random.greeting();
         Pratham.greeting();
         Kunal.greeting();
