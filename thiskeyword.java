@@ -24,9 +24,10 @@ class Student {
 
 public class thiskeyword {
     public static void main(String args[]) {
-        Student Pratham = new Student();
+        Student Pratham = new Student(18,"Pratham", 78.9f);
         Student Kunal = new Student(14, "Kunal",48.5f);
         Pratham.greeting();
         Kunal.greeting();
+        System.out.println(Pratham.rno);
     }
 }
