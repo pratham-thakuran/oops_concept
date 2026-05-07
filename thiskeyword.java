@@ -32,10 +32,12 @@ public class thiskeyword {
         Student Kunal = new Student(14, "Kunal",48.5f);
         Student random = new Student(Pratham);
         Student random2 = new Student();
+        Student Ansh = new Student();
         random2.greeting();
         random.greeting();
         Pratham.greeting();
         Kunal.greeting();
         System.out.println(Pratham.rno);
+        System.out.println(Ansh.rno);
     }
 }
