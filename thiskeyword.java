@@ -1,4 +1,3 @@
-import java.util.*;
 
 class Student {
     int rno;
@@ -41,6 +40,6 @@ public class thiskeyword {
         System.out.println(Pratham.rno);
         System.out.println(Ansh.rno);
         System.out.println(Ansh.rno);
-        // System.out.println(Raju.rno);
+        System.out.println(Raju.rno);
     }
 }
