@@ -1,4 +1,4 @@
-
+// package a;
 class Student {
     int rno;
     String name;
@@ -41,5 +41,6 @@ public class thiskeyword {
         System.out.println(Ansh.rno);
         System.out.println(Ansh.rno);
         System.out.println(Raju.name);
+        System.out.println(Raju.marks);
     }
 }
