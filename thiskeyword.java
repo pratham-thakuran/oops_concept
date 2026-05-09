@@ -3,6 +3,7 @@ class Student {
     int rno;
     String name;
     float marks;
+    static long population;
 
     Student() {
         this(13,"null",100.0f);
@@ -12,6 +13,7 @@ class Student {
         this.rno = rno;
         this.name = name;
         this.marks = marks;
+        Student.population+=1;
     }
 
     void greeting() {
@@ -42,5 +44,7 @@ public class thiskeyword {
         System.out.println(Ansh.rno);
         System.out.println(Raju.name);
         System.out.println(Raju.marks);
+        System.out.println(Student.population);
+
     }
 }
