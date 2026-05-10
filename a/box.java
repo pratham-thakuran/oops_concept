@@ -4,6 +4,8 @@ public class box {
     double l;
     double h;
     double w;
+    double area;
+    double weight=19.89;
 
     // 2d
     box(){
@@ -16,6 +18,7 @@ public class box {
         this.l=side;
         this.h=side;
         this.w=side;
+        this.area=side*side*side;
     }
     // 3 parameters
     box(double l, double h, double w){
