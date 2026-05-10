@@ -8,7 +8,7 @@ public class main {
         // boxweight d = new boxweight();
         // System.out.println(d.weight+","+d.h);
         
-        boxweight e = new boxweight(1,2,3,4);
+        // boxweight e = new boxweight(1,2,3,4);
         
 
         // box b = new box(4);
@@ -16,5 +16,8 @@ public class main {
 
         // box c = new box(4,5,6);
         // System.out.println(c.l+","+c.h+","+c.w);
+
+        boxprice z = new boxprice(5, 6 , 7);
+
     }
 }
