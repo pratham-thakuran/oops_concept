@@ -1,7 +1,14 @@
 package abstracclass;
 
 public class son extends parent{
-    String name;
+    
+    public son (String name, int age){
+        super(age);
+        this.name = name;
+   
+    }
+    
+    
     @Override
     void career(String name){
         this.name=name;
