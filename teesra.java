@@ -10,6 +10,7 @@ public class teesra {
         movie.setBounds(100,50,150,30);
         text1.setBounds(300,50,140,30);
         frame.add(movie);
+        frame.add(text1);
 
         JLabel Director = new JLabel("Enter Director Name:");
         JTextField text2 = new JTextField();
@@ -17,7 +18,7 @@ public class teesra {
         Director.setBounds(100,100,150,30);
         text2.setBounds(300,100,140,30);
         frame.add(Director);
-        frame.add(text1);
+        frame.add(text2);
         
         JLabel Rating = new JLabel("Rating:");
         JTextField text3 = new JTextField();
@@ -25,12 +26,11 @@ public class teesra {
         Rating.setBounds(100,150,150,30);
         text3.setBounds(300,150,140,30);
         frame.add(Rating);
-        frame.add(text2);
+        frame.add(text3);
 
         JButton button = new JButton("Submit");
         button.setBounds(200,200,140,30);
         frame.add(button);
-        frame.add(text3);
 
 
         button.addActionListener(new ActionListener(){
