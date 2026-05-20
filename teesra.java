@@ -20,13 +20,13 @@ public class teesra {
         frame.add(Director);
         frame.add(text2);
         
-        JLabel Rating = new JLabel("Rating:");
-        JTextField text3 = new JTextField();
-        text1.getText();
-        Rating.setBounds(100,150,150,30);
-        text3.setBounds(300,150,140,30);
-        frame.add(Rating);
-        frame.add(text3);
+        // JLabel Rating = new JLabel("Rating:");
+        // JTextField text3 = new JTextField();
+        // text1.getText();
+        // Rating.setBounds(100,150,150,30);
+        // text3.setBounds(300,150,140,30);
+        // frame.add(Rating);
+        // frame.add(text3);
 
         JButton button = new JButton("Submit");
         button.setBounds(200,200,140,30);
