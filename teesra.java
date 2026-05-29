@@ -28,19 +28,19 @@ public class teesra {
         // frame.add(Rating);
         // frame.add(text3);
 
-        JButton button = new JButton("Submit");
-        button.setBounds(200,200,140,30);
-        frame.add(button);
+//        JButton button = new JButton("Submit");
+//        button.setBounds(200,200,140,30);
+//        frame.add(button);
 
 
-        button.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                String moviename = text1.getText();
-                String directorname = text2.getText();
-                String rating = text3.getText();
-                JOptionPane.showMessageDialog(frame,"Movie:"+moviename+"\nDirector:"+directorname+"\nRating:"+rating);
-            }
-        });
+//        button.addActionListener(new ActionListener(){
+//            public void actionPerformed(ActionEvent e){
+//                String moviename = text1.getText();
+//                String directorname = text2.getText();
+//                String rating = text3.getText();
+//                JOptionPane.showMessageDialog(frame,"Movie:"+moviename+"\nDirector:"+directorname+"\nRating:"+rating);
+//            }
+//        });
 
         frame.setSize(500,500);
         frame.setLayout(null);
