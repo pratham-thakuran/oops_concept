@@ -7,9 +7,11 @@ Students:
     subjects:
       -Maths
       -English
+      -Science
     Marks:
       Maths: 90
       English: 78
+      Science: 45
 
 
 
