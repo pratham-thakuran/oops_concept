@@ -23,7 +23,9 @@ Students:
     subjects:
       -Maths
       -English
+      -History
     Marks:
       Maths: 90
       English: 78
+      History: "not given"
 why we used: got it why we use yaml file, it is used for the easy understanding for the one who codes and also it gives value to the code
